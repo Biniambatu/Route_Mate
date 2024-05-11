@@ -1,15 +1,25 @@
 import React from 'react'
-
+import logo from '../assets/google-play-games.png'
+import { Link,NavLink } from 'react-router-dom'
+import { HStack } from '@chakra-ui/react'
 const Header = () => {
   return (
     <header>
-      <a href=""></a>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/contact">Contact</a>
-        <a href="/employee">Employee</a>
-        <a href="/login">Login</a>
-      </nav>
+      <HStack justifyContent="space-between"> 
+        <Link to='/'>
+           <img src={logo} className='logo' />
+        </Link>
+        <HStack >
+          <nav>
+           <NavLink to="/">Home</NavLink>
+           <NavLink to="/contact">Contact</NavLink>
+           <NavLink to="/employee">Employee</NavLink>
+           <NavLink to="/login">Login</NavLink>
+          </nav>
+        </HStack>
+      </HStack>
+    
+     
     </header>
   )
 }
