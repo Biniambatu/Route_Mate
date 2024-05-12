@@ -1,8 +1,13 @@
 import React from 'react'
-
+import { Params, useParams, useSearchParams, Outlet } from 'react-router-dom'
 const Contact = () => {
+  
   return (
-    <div>Contact</div>
+    <>
+      <div>contact</div>
+      <Outlet/>
+    </>
+    
   )
 }
 
