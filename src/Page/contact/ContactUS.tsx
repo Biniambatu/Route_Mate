@@ -1,10 +1,9 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-const ContactUS = () => {
+export const ContactUS = () => {
   return (
     <div>contactUS</div>
 
   )
 }
 
-export default ContactUS

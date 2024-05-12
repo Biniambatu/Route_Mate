@@ -1,6 +1,7 @@
 import React from 'react'
 import { Params, useParams, useSearchParams, Outlet } from 'react-router-dom'
-const Contact = () => {
+
+export const Contact = () => {
   
   return (
     <>
@@ -11,4 +12,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+

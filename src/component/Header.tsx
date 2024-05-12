@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/google-play-games.png'
 import { Link,NavLink } from 'react-router-dom'
 import { HStack } from '@chakra-ui/react'
-const Header = () => {
+export const Header = () => {
   return (
     <header>
       <HStack justifyContent="space-between"> 
@@ -24,4 +24,3 @@ const Header = () => {
   )
 }
 
-export default Header

@@ -1,15 +1,10 @@
 import { Routes, Route, Navigate } from "react-router-dom"
 import './App.css'
-import Home from "./Page/Home"
-import Employee from "./Page/Employee"
-import Login from "./Page/Login"
-import Contact from "./Page/Contact"
-import Header from "./component/Header"
-import Footer from "./component/Footer"
-import PageNotFound from "./Page/PageNotFound"
-import ContactETH from "./Page/contactETH"
-import ContactEU from "./Page/contactEU"
-import ContactUS from "./Page/contactUS"
+import {Home,Employee,Login,ContactETH,PageNotFound,ContactEU,ContactUS, Contact }from './Page/index'
+
+import{ Header,Footer }from "./component/main"
+
+
 function App() {
   
    const user = true
